@@ -1,7 +1,7 @@
 {
   "name": "Connected Office Web Application User Acceptance Test",
   "description": "User Acceptance Test for Project 3 Web Application",
-  "main": "Main.xaml",
+  "main": "Create.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
@@ -45,8 +45,8 @@
   "expressionLanguage": "CSharp",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "67bf60eb-e888-432e-9cb5-1885b60ab415",
+      "filePath": "Create.xaml",
+      "uniqueId": "ab6dbc97-a27e-4f2f-8ed6-fc8bd8540bbb",
       "input": [],
       "output": []
     }
