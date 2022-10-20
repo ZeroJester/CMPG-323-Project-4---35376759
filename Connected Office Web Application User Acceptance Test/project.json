@@ -1,6 +1,6 @@
 {
-  "name": "Connected Office Web Application User Acceptance Testing",
-  "description": "RPA for Project 4 - Testing Connected Office Web Application",
+  "name": "Connected Office Web Application User Acceptance Test",
+  "description": "User Acceptance Test for Project 3 Web Application",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
@@ -46,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "9ad192d0-6b4f-486d-960c-17413054ccbf",
+      "uniqueId": "67bf60eb-e888-432e-9cb5-1885b60ab415",
       "input": [],
       "output": []
     }

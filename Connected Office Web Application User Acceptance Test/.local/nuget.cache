@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0q7ULkrpYnRCYpxJg7nbQMBs0V+aK3x5aZ4D8GxNMqIeXcaMSCcYfQe1DJp/KuMiPLajYxM6/lCP7++p5szo5g==",
+  "dgSpecHash": "f313wSIHKs94qwNomjNAmzmc2HjhKOecwIoicI2Juz3YmSz6vvsYhxKwIPbJTKBuBGi1/lgeOU6FXtCg7dPaWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcel\\Desktop\\P4-323\\CMPG-323-Project-4---35376759\\Connected Office Web Application User Acceptance Testing\\.local\\",
+  "projectFilePath": "C:\\Users\\Marcel\\Desktop\\P4-323\\CMPG-323-Project-4---35376759\\Connected Office Web Application User Acceptance Test\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Marcel\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
