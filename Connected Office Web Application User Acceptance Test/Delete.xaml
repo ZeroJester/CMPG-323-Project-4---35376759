@@ -105,13 +105,13 @@
                 <uix:TargetAnchorable BrowserURL="https://connectedoffice-devicemanagement.azurewebsites.net/" DesignTimeRectangle="9, 400, 285, 50" ElementType="Text" FriendlyName="'Zones'" FullSelectorArgument="&lt;webctrl aaname='Zones' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Zones' tag='A' type='' class='nav-link text-dark' check:innerText='Zones' /&gt;" Guid="0091f232-e500-42e3-9053-e6494e4be2ac" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASEAAAA2CAYAAACIuS+MAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAASdSURBVHhe7dtBS2NXFMDxfgaRfgMXoitnZReDm5DVkI10MRVBihAQFGQYqFhoB0TdOELRVRgoOqC4mOhirJuiYMlAhgERRcQOyAylZFYdmPXpiznnvfuSaBoxpyD/A7/NzfUlqz/vvsSvbCSav758kfef/wGAjrPRBBEhAL5sNEFECIAvG00QEQLgy0YTRIQA+LLRBBEhAL5sNEFECIAvG00QEQLgy0YTRIQA+LLRBBEhAL5sNEFECIAvG00QEQLgy0YTRIQA+LLRBBEhAL5sNEFECIAvG00QEQLgy0YTRIQA+LLRBBEhAL5sNEFECIAvG00QEQLgy0YTRIQA+LLRBHUiQvsy2/21dP0Xc/tN/h7AfWajCfp/IzT0y7smfw/gPrPRBHkexyqyOdOXRCizJLtN9wG4z2w0QX4ROnv9g/TEd0FZefam+T4A95uNJsgpQpfbku+1AEXHsMWSnDXZVz5Yl9l8Th7Y3t5ByebnpfD2Q3rvwXx8ra7RdTk83Y7+Liv9V2sDMpRfkuJlsF8dvd1KXb8/MyKTL0pyVLevvFeQyYbPEV3zY3ofgPbZaII8IvRB1qbCY9i87H6q31OR4mIuuFOq1yePloNwhRF6mJWhIHCx4YIcBu9xuDGhkWrUMx6FzPa9/P6azzEiq+fJ9QDcjo0mqPMROno1nTqGzf5RadiTOqplfpK1P3X9fFueZJK/jY9wYYS6h2Ty1UVt/3FBhuP1nDw/1v3R+iNbjyK4eXWXVJHDXy04ffJkr/q5SjIbBy0nC2/0s366kOKLlfhzAbg9G01QhyN0viWPg7uU5sew6p1SsmfydTpS5Zcj8Ws99pV+GKHvkruY958vpDCeXGv2oLa+uzwUr6Wu/zE6Jup618/Va4ff7EV3X4u/yeHfdm0Ad8FGE9TJCFWD0OoYVhXefTQ58tQ9/ylft6aKc7oeqUUoHaZrXV2nIruL2YbX+oenZeH3uudSAG7FRhPUuQiVN8JnK9Ex7KDxGFYT3n10JkKro8nateLrRMe0nSUZywzU7emTxxu1Yx+A27PRBHUoQqfr6WNYdIxq9m1YTXinYs9mktfD49jgcqm23laEouPYYnJHVn/cu9HlOyn8GNwZjW+l3gtA+2w0QZ2I0Ims1h3Dii2eq6QeXscPjqsPmrck/1DXu79NHjS3GaGzaP+g7a8++D5NQnR2ui/Pn67oDydLsvC0IMX49UoUwYnkvaa2G77OB9AeG03Q3UfoaCf8NqyF4AhUnGt8FpMYkLGNk+R92oxQ6+tHobzad8O/nPTm5FmTb/YAtMdGE3T3EQqPTy3VBaThR4IPsjI8tSJrxzf/WLF1hGrKeyuSH7UfNUaqP0IcnZaFnRM9Lp7I2syEZIPnQT3f5GRspiCbfD0P3AkbTVDnHkwDQDM2miAiBMCXjSaICAHwZaMJIkIAfNlogogQAF82miAiBMCXjSaICAHwZaMJIkIAfNlogogQAF82miAiBMCXjSaICAHwZaMJIkIAfNlogogQAF82miAiBMCXjSaICAHwZaMJIkIAfNlogogQAF82miAiBMCXjSaICAHwVRuRfwEYYzfLZ4XHBwAAAABJRU5ErkJggg==" InformativeScreenshot="dcede58293688f42ba0614c4f278ac5a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home Page - Connected Office: Device Management' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NForEachUiElement DisplayName="For Each UI Element" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='DeleteElement'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='src'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='6' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='img' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="438.4,716" sap2010:WorkflowViewState.IdRef="NForEachUiElement_1" MaximumResults="0" ScopeIdentifier="acce087a-2510-4801-9eb1-6aa9ac0d9001" Version="V1">
+            <uix:NForEachUiElement DisplayName="For Each UI Element" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='src'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='6' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='img' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="438.4,716" sap2010:WorkflowViewState.IdRef="NForEachUiElement_4" MaximumResults="0" ScopeIdentifier="acce087a-2510-4801-9eb1-6aa9ac0d9001" Version="V1">
               <uix:NForEachUiElement.Body>
                 <ActivityAction x:TypeArguments="x:Int32">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,448.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,448.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -137,16 +137,16 @@
                 </ActivityAction>
               </uix:NForEachUiElement.Body>
               <uix:NForEachUiElement.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="332, 468, 1576, 741" FriendlyName="'Linemen Assembly'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="68a6d861-52fc-4700-ba11-a42e235b724d" InformativeScreenshot="f2572264c35534f11219448fb7438e3d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zones - Connected Office: Device Management' /&gt;" SearchSteps="Selector" Visibility="Interactive" />
+                <uix:TargetAnchorable DesignTimeRectangle="332, 468, 1576, 370" FriendlyName="'Safety Office'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="fdecffd3-1b38-40e0-8505-a47c3bc23b52" InformativeScreenshot="77990efbe31c029a68ed2510d6d3b167.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zones - Connected Office: Device Management' /&gt;" SearchSteps="Selector" Visibility="Interactive" />
               </uix:NForEachUiElement.Target>
               <uix:NForEachUiElement.Variables>
-                <Variable x:TypeArguments="ui:UiElement" Name="DeleteElement" />
-                <Variable x:TypeArguments="x:String" Name="DeleteElement_Label" />
+                <Variable x:TypeArguments="ui:UiElement" Name="CurrentElement" />
+                <Variable x:TypeArguments="x:String" Name="CurrentElement_Label" />
               </uix:NForEachUiElement.Variables>
               <uix:NForEachUiElement.VariablesMetadata>
                 <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column0" Capacity="4">
-                  <uuam:VariableMetadata Name="DeleteElement" Type="ui:UiElement" />
-                  <uuam:VariableMetadata Name="DeleteElement_Label" Type="x:String" />
+                  <uuam:VariableMetadata Name="CurrentElement" Type="ui:UiElement" />
+                  <uuam:VariableMetadata Name="CurrentElement_Label" Type="x:String" />
                 </scg:List>
               </uix:NForEachUiElement.VariablesMetadata>
             </uix:NForEachUiElement>
@@ -186,6 +186,15 @@
                   </Sequence>
                 </ActivityAction>
               </uix:NForEachUiElement.Body>
+              <uix:NForEachUiElement.Filter>
+                <uuam:FilterArgument LogicalOperator="And">
+                  <uuam:FilterArgument.Filters>
+                    <scg:List x:TypeArguments="uuam:FilterEntryArgument" Capacity="4">
+                      <uuam:FilterEntryArgument Value="{x:Null}" Criterion="Column0" Operator="IsNotEmpty" />
+                    </scg:List>
+                  </uuam:FilterArgument.Filters>
+                </uuam:FilterArgument>
+              </uix:NForEachUiElement.Filter>
               <uix:NForEachUiElement.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="332, 473, 1576, 370" FriendlyName="'Temperature Sensor'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="c9a54bbb-f472-4a94-b7cc-1efb6ea53fa1" InformativeScreenshot="80fbc33f1650b622c143dcad45c3c019.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Categories - Connected Office: Device Management' /&gt;" SearchSteps="Selector" Visibility="Interactive" />
               </uix:NForEachUiElement.Target>
@@ -236,6 +245,15 @@
                   </Sequence>
                 </ActivityAction>
               </uix:NForEachUiElement.Body>
+              <uix:NForEachUiElement.Filter>
+                <uuam:FilterArgument LogicalOperator="And">
+                  <uuam:FilterArgument.Filters>
+                    <scg:List x:TypeArguments="uuam:FilterEntryArgument" Capacity="4">
+                      <uuam:FilterEntryArgument Value="{x:Null}" Criterion="Column0" Operator="IsNotEmpty" />
+                    </scg:List>
+                  </uuam:FilterArgument.Filters>
+                </uuam:FilterArgument>
+              </uix:NForEachUiElement.Filter>
               <uix:NForEachUiElement.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="332, 437, 1576, 618" FriendlyName="'Boiler Temp Broken'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="70bfda62-0812-4110-853c-7b83fc88d8b9" InformativeScreenshot="1138361e8df23f40a00f69a3316127a1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Devices - Connected Office: Device Management' /&gt;" SearchSteps="Selector" Visibility="Interactive" />
               </uix:NForEachUiElement.Target>
