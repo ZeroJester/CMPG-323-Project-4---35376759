@@ -156,12 +156,17 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ueab:ReadRangeX SaveTo="{x:Null}" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="443.2,169.6" sap2010:WorkflowViewState.IdRef="ReadRangeX_2">
+                                <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="443.2,169.6" sap2010:WorkflowViewState.IdRef="ReadRangeX_2">
                                   <ueab:ReadRangeX.Range>
                                     <InArgument x:TypeArguments="ue:IReadRangeRef">
                                       <mca:CSharpValue x:TypeArguments="ue:IReadRangeRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">ExcelFile_Test.Sheet["Zone"]</mca:CSharpValue>
                                     </InArgument>
                                   </ueab:ReadRangeX.Range>
+                                  <ueab:ReadRangeX.SaveTo>
+                                    <OutArgument x:TypeArguments="sd:DataTable">
+                                      <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">ExcelFile_Test.Sheet["Test Results"].DataTableOutValue</mca:CSharpReference>
+                                    </OutArgument>
+                                  </ueab:ReadRangeX.SaveTo>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -246,12 +251,17 @@
                                   </ueab:ExcelForEachRowX.Range>
                                 </ueab:ExcelForEachRowX>
                               </Sequence>
-                              <ueab:ReadRangeX SaveTo="{x:Null}" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="484.8,169.6" sap2010:WorkflowViewState.IdRef="ReadRangeX_3">
+                              <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="484.8,169.6" sap2010:WorkflowViewState.IdRef="ReadRangeX_3">
                                 <ueab:ReadRangeX.Range>
                                   <InArgument x:TypeArguments="ue:IReadRangeRef">
                                     <mca:CSharpValue x:TypeArguments="ue:IReadRangeRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">ExcelFile_Test.Sheet["Category"]</mca:CSharpValue>
                                   </InArgument>
                                 </ueab:ReadRangeX.Range>
+                                <ueab:ReadRangeX.SaveTo>
+                                  <OutArgument x:TypeArguments="sd:DataTable">
+                                    <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">ExcelFile_Test.Sheet["Test Results"].DataTableOutValue</mca:CSharpReference>
+                                  </OutArgument>
+                                </ueab:ReadRangeX.SaveTo>
                               </ueab:ReadRangeX>
                               <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="False" sap:VirtualizedContainerService.HintSize="484.8,1544" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_3" SaveAfterEachRow="False">
                                 <ueab:ExcelForEachRowX.Body>
@@ -329,12 +339,17 @@
                                   </InArgument>
                                 </ueab:ExcelForEachRowX.Range>
                               </ueab:ExcelForEachRowX>
-                              <ueab:ReadRangeX SaveTo="{x:Null}" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="484.8,169.6" sap2010:WorkflowViewState.IdRef="ReadRangeX_4">
+                              <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="484.8,169.6" sap2010:WorkflowViewState.IdRef="ReadRangeX_4">
                                 <ueab:ReadRangeX.Range>
                                   <InArgument x:TypeArguments="ue:IReadRangeRef">
                                     <mca:CSharpValue x:TypeArguments="ue:IReadRangeRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">ExcelFile_Test.Sheet["Device"]</mca:CSharpValue>
                                   </InArgument>
                                 </ueab:ReadRangeX.Range>
+                                <ueab:ReadRangeX.SaveTo>
+                                  <OutArgument x:TypeArguments="sd:DataTable">
+                                    <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">ExcelFile_Test.Sheet["Test Results"].DataTableOutValue</mca:CSharpReference>
+                                  </OutArgument>
+                                </ueab:ReadRangeX.SaveTo>
                               </ueab:ReadRangeX>
                               <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="False" sap:VirtualizedContainerService.HintSize="484.8,1544" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_4" SaveAfterEachRow="False">
                                 <ueab:ExcelForEachRowX.Body>
