@@ -551,7 +551,7 @@
                                       <If sap:VirtualizedContainerService.HintSize="484,434" sap2010:WorkflowViewState.IdRef="If_1">
                                         <If.Condition>
                                           <InArgument x:TypeArguments="x:Boolean">
-                                            <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">CurrentRow.ByField["F"]</mca:CSharpValue>
+                                            <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">CurrentRow.ByField["IsActive"]</mca:CSharpValue>
                                           </InArgument>
                                         </If.Condition>
                                         <If.Then>
