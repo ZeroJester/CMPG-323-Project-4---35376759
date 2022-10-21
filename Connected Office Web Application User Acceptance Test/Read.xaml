@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Read" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1262,3784" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Read" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1262,3780" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="42">
       <x:String>System.Activities</x:String>
@@ -89,19 +89,19 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="572,3719" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence sap:VirtualizedContainerService.HintSize="572,3715" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Home Page - Connected Office: Device Management" sap:VirtualizedContainerService.HintSize="530,3627" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="0a001052-89d0-4a52-82fc-224ee533f4ac" Version="V2">
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Home Page - Connected Office: Device Management" sap:VirtualizedContainerService.HintSize="530,3623" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="0a001052-89d0-4a52-82fc-224ee533f4ac" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,3411" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,3407" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Int32" Default="2" Name="Index" />
             </Sequence.Variables>
@@ -166,7 +166,7 @@
                 </Sequence>
               </ui:InterruptibleWhile.Body>
               <ui:InterruptibleWhile.Condition>
-                <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">Index&lt;12</mca:CSharpValue>
+                <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">Index&lt;11</mca:CSharpValue>
               </ui:InterruptibleWhile.Condition>
             </ui:InterruptibleWhile>
             <uix:NClick ClickType="Single" DisplayName="Click 'Categories'" sap:VirtualizedContainerService.HintSize="454,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0a001052-89d0-4a52-82fc-224ee533f4ac" Version="V1">
@@ -235,7 +235,7 @@
                 </Sequence>
               </ui:InterruptibleWhile.Body>
               <ui:InterruptibleWhile.Condition>
-                <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">Index&lt;6</mca:CSharpValue>
+                <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">Index&lt;7</mca:CSharpValue>
               </ui:InterruptibleWhile.Condition>
             </ui:InterruptibleWhile>
             <uix:NClick ClickType="Single" DisplayName="Click 'Devices'" sap:VirtualizedContainerService.HintSize="454,156" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0a001052-89d0-4a52-82fc-224ee533f4ac" Version="V1">
@@ -253,21 +253,21 @@
                 <InArgument x:TypeArguments="x:Int32">2</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="454,805" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3">
+            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="454,801" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3">
               <ui:InterruptibleWhile.Body>
-                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="418,640" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="418,636" sap2010:WorkflowViewState.IdRef="Sequence_16">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,548" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,544" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NClick ClickType="Single" DisplayName="Click 'Devices'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0a001052-89d0-4a52-82fc-224ee533f4ac" Version="V1">
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Devices'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0a001052-89d0-4a52-82fc-224ee533f4ac" Version="V1">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://connectedoffice-devicemanagement.azurewebsites.net/Devices" DesignTimeRectangle="1773, 399, 29, 29" ElementType="Icon" FriendlyName="'IMG'" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='IMG' aaname='                                              ' /&gt;" Guid="c952f2fc-e220-462b-bf05-5d63146caaa5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAG3SURBVEhL7ZU/jwFRFMVHIhJKlcTfRiVR+QCE7yISpcY3EJ3E59AojdDQKUSlJnpKwdn8XnYms5asjZ3ZTdZpXu69557jvvtg6RfwMvUVL1Nf8fdNT6eTNpuNFouFZrOZOYnJfwcPme52O3W7XVUqFeXzeaXTaSWTSXMSk6cO7xHcNT0ej1qv12o2m4pEIrIsS9FoVIVCQe12W/1+35zE5KnDg08f/fdw03S73arT6ZgpcrmcQqGQMpmMer2eDoeDlsulptOpOYnJU4cHnz760bmFD6aXy0WTyUTlclmJREKtVkv1el2xWMwIsz8mKRaLymaz5iQmTx0efProRwc9dL1wTc/nswaDgdlTPB7XaDTSfr9XqVQyV8hEGITDYTUaDQ2HQ3MSk6cODz59tm0bHfTQRd+Ba+oYVqtV88nBarUyE7E7rpLJMPKCmDx1ePDpA1xvrVZzjR24pjSmUimNx+P3jDSfz80r5dGwQwSZ0Ati8tThwafPAXroou/g06R8MucBPDspN8bN3Z30eqfs5Jmd8ia+3CkI/PV6Eej31IvAf5GuEdhv7y0E+i/z03iZ+or/Yiq9Ac2peWpKRxhPAAAAAElFTkSuQmCC" InformativeScreenshot="05b11394b0be26a5580757da50c66dc2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Devices - Connected Office: Device Management' /&gt;" SearchSteps="Selector, Image" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -283,12 +283,12 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ClickType="Single" DisplayName="Click 'Back to List'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0a001052-89d0-4a52-82fc-224ee533f4ac" Version="V1">
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Back to List'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0a001052-89d0-4a52-82fc-224ee533f4ac" Version="V1">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://connectedoffice-devicemanagement.azurewebsites.net/Devices/Details/4a70a013-43b9-4019-afb5-019ac5c4625c" DesignTimeRectangle="454, 609, 100, 27" ElementType="Text" FriendlyName="'Back to List'" FullSelectorArgument="&lt;webctrl aaname='Back to List' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Back to List' tag='A' type='' class='' check:innerText='Back to List' /&gt;" Guid="bec93bcf-0619-4fc8-87b0-fabffe194e17" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAAfCAYAAAALO4jYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAATqSURBVGhD7ZjBayJJFMYX8md4zXFuc8w1xxw9ejUEghBCZFiYhIEgLAFZCCshh0hgSAaWICxIwzLgQVgEDwnDgK6Kiho1k9lEzI4xOAnffmVXa3erbWPM0gP9QYFd/bq6+v2q3nvlT3DlaLmAHC4XkMPlAnK4XEAOlwvI4XIBOVwuIIfLBeRwuYAcLscAasZzWFgtISWvfzg9fUVkK4PFUA1N2TUPGQGdl+ikjLGtZ+HdryLTfpRGLyNHA2pW4aUvvPG27BijhyuE/y9A/g9NJNJsHysI7+fxao2gNku4eJB2L6DnAfqG1IcCVt5fyes5yw6gmXULhT4O/Dl+7LGAQufyWqqbLuI1+wOJb7Jn/noeoDZOd7iIDn9EQFcIWYxtC9DLTlCVC+g5gD6XuYOyCGfktab2V8QO81gODPOV/7iJ1pO8r5fZlmFzZa+Gkrw9FlC9Ch/tPG/LuOjIPpPU5+SYumb4hl4biZMCvJvD+0s7BUTSd9JgimwBGr9IuoUaQqGsmiY4xuJmHuFPaiRKHQ7nM2w5nOqS2BRA39EqXmKbH7bEF3dlryp1Qp6tPCIf1ZwVi+bg4fNLUZOtdPTCeg6heEPNb8kqQu/oeGkyAuifRv+9ni32TYAj1K1fc7watt9w/F8q6thsmVtp0OEKZfJeWOPiObkcvls4k3P1xVvS0EKzAsqUscTnln+tQOnP6xKRvRz8cpxWUfRV4Bc2BzU592s0dbl+LCBzW4k20OxJm4HaUM4apt1yD4XbbGG1iJTWz/IzLFYuiwwrRxsACafaeGaoSSHugas0Szh5nNbNVei9em81j5gGc5JmBHQRNfmiL86jp5/LDCFuUMWR+FG0CJ8IS+v8yOL0Mk51tG6bckyPCI+frcv0AaDODY52JRzbpf0EQA8NBPk9r4+vZYdJ0vE+ZUqomxFQ6Ux8UxahtFVxNY8c9NRSX75ZhiEN9f5FJl1FhBADO1ksM5SIEKcHpDq+gMQUthpYn4CzUUBsZMVbaQIg6djgX5NerjrHw5BsqVlDXOcaEdHHZxffMOclb9AaiUTzAESN7Ix6Df51vlwUBvslhM/U+K4wD40CMm/zUWkgw+9FHsuypLeRGwZyKKC+mMczNYSZexY5hohExsX3IoAe1Qpkg4435YjSH0ZArUSB12MqQJPU8UUO0nLDtNCg1wTn2AxxU893zwKk05dLBDdos1PV/dswD0C9G0R+5sCDEHeHmAhFb6uDMrmvJ+YPYaffaR06SZTKu7S12EVDQBRDaiwkxiGk8/v+fWtJ5+ya/2Z5QOI39lsVCWsFKC9UJKD3Xf7QxIV9QJuNYfU6bRfbKhK8IpSxTNU7S02ArPAOqmoJmawguMXQxK1sAER1Oa4oN/UlufgbKWhVZou8JxaBLUhyR9N2Oy7mUkbsk7ylVYRjy2ybC0ACGpbC+qaVxaOAxJxW9jgXaaucFbAszn+/30gLIfkcF1EkSbs4S3Kd78YCMjQxIF+S+GJaDU93SB3nsSTg0U4kwSMewEqGUKjpEa2/zQe2HAInV9AyzQggId0ZZqojRUJ+x0Ug5szz1lFB9gt1bqFwrsZDchlK1c7upCSggU8MTfvWUUDNVBH+QeGUwSsu0HDy1nSepOoMfeIcRxtPoAhFt1GNgFw5Ti4gh8sF5HC5gBwuF5DD5QJytID/AN+b8+MhlvdEAAAAAElFTkSuQmCC" InformativeScreenshot="51f99e240504259b64f06f86ab547e42.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Device Details - Connected Office: Device Management' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <Assign sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="Assign_5">
+                    <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_5">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:Int32">
                           <mca:CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">Index</mca:CSharpReference>
@@ -304,7 +304,7 @@
                 </Sequence>
               </ui:InterruptibleWhile.Body>
               <ui:InterruptibleWhile.Condition>
-                <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">Index&lt;10</mca:CSharpValue>
+                <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">Index&lt;11</mca:CSharpValue>
               </ui:InterruptibleWhile.Condition>
             </ui:InterruptibleWhile>
           </Sequence>
