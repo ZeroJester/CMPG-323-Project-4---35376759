@@ -259,7 +259,7 @@
                                 </Sequence>
                               </ui:InterruptibleWhile.Body>
                               <ui:InterruptibleWhile.Condition>
-                                <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">Index&lt;12</mca:CSharpValue>
+                                <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">Index&lt;11</mca:CSharpValue>
                               </ui:InterruptibleWhile.Condition>
                             </ui:InterruptibleWhile>
                             <uix:NClick ClickType="Single" DisplayName="Click 'Categories'" sap:VirtualizedContainerService.HintSize="951,156" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f1a48f7f-8485-45ea-8384-db0563613f36" Version="V1">
@@ -389,7 +389,7 @@
                                 </Sequence>
                               </ui:InterruptibleWhile.Body>
                               <ui:InterruptibleWhile.Condition>
-                                <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">Index&lt;8</mca:CSharpValue>
+                                <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">Index&lt;7</mca:CSharpValue>
                               </ui:InterruptibleWhile.Condition>
                             </ui:InterruptibleWhile>
                             <uix:NClick ClickType="Single" DisplayName="Click 'Devices'" sap:VirtualizedContainerService.HintSize="951,156" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f1a48f7f-8485-45ea-8384-db0563613f36" Version="V1">
