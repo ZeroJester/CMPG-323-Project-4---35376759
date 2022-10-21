@@ -8545,15 +8545,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marcel\\.nuget\\packages\\": {}
+    "C:\\Users\\Marcel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Connected Office Web Application User Acceptance Test",
       "projectName": "Connected Office Web Application User Acceptance Test",
-      "projectPath": "C:\\Users\\Marcel\\Desktop\\P4-323\\CMPG-323-Project-4---35376759\\Connected Office Web Application User Acceptance Test\\.local",
+      "projectPath": "C:\\Users\\Marcel\\Desktop\\323 P4\\CMPG-323-Project-4---35376759\\Connected Office Web Application User Acceptance Test\\.local",
       "packagesPath": "C:\\Users\\Marcel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marcel\\Desktop\\P4-323\\CMPG-323-Project-4---35376759\\Connected Office Web Application User Acceptance Test\\.local"
+      "outputPath": "C:\\Users\\Marcel\\Desktop\\323 P4\\CMPG-323-Project-4---35376759\\Connected Office Web Application User Acceptance Test\\.local",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ]
     },
     "frameworks": {
       "net461": {
