@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Vp6acOMX36JfUbk0MmlHmkMp/UGdvfibXquzWL1Opz7xETkYmT3BOfilFe/nEZkaY4WtkcR/CWBlgM2Sz+E9Vg==",
+  "dgSpecHash": "ZSWZ4hjmGSWYuKAKNNAHL0Qwnd3Ki3tk0P9zxEfSIplosTttbeDf6wdfcKa2GzNzRZ1MoqwwdErT2Mtuff7i+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Marcel\\Desktop\\323 P4\\CMPG-323-Project-4---35376759\\Connected Office Web Application User Acceptance Test\\.local\\",
   "expectedPackageFiles": [
+    "C:\\Users\\Marcel\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",
@@ -68,6 +69,7 @@
     "C:\\Users\\Marcel\\.nuget\\packages\\npoi\\2.5.5\\npoi.2.5.5.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\Marcel\\.nuget\\packages\\restsharp\\106.15.0\\restsharp.106.15.0.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
@@ -103,7 +105,8 @@
     "C:\\Users\\Marcel\\.nuget\\packages\\uipath.system.activities\\22.4.5\\uipath.system.activities.22.4.5.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\uipath.telemetry.client.1.5.3.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.2\\uipath.uiautomation.activities.22.10.2.nupkg.sha512",
-    "C:\\Users\\Marcel\\.nuget\\packages\\uipath.vision\\3.6.0\\uipath.vision.3.6.0.nupkg.sha512"
+    "C:\\Users\\Marcel\\.nuget\\packages\\uipath.vision\\3.6.0\\uipath.vision.3.6.0.nupkg.sha512",
+    "C:\\Users\\Marcel\\.nuget\\packages\\uipath.webapi.activities\\1.13.2\\uipath.webapi.activities.1.13.2.nupkg.sha512"
   ],
   "logs": []
 }
