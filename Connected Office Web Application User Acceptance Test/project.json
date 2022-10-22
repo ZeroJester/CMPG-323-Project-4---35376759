@@ -1,7 +1,7 @@
 {
   "name": "Connected Office Web Application User Acceptance Test",
   "description": "User Acceptance Test for Project 3 Web Application",
-  "main": "Create.xaml",
+  "main": "Delete Zones.xaml",
   "dependencies": {
     "UiPath.DataService.Activities": "[21.10.1]",
     "UiPath.Excel.Activities": "[2.12.3]",
@@ -48,6 +48,12 @@
     {
       "filePath": "Create.xaml",
       "uniqueId": "ab6dbc97-a27e-4f2f-8ed6-fc8bd8540bbb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Delete Zones.xaml",
+      "uniqueId": "422f80ea-11a4-4fc5-9864-55d278c60a33",
       "input": [],
       "output": []
     }
