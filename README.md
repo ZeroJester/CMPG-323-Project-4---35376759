@@ -2,7 +2,7 @@
 ## How to use the project?
 
 1. Open the Project 4 repository.
-2. Click on the green "Code" button".
+2. Click on the green "Code" button.
 3. Click "Download ZIP" from the dropdown menu.
 4. Extract the downloaded ZIP file.
 5. Open the extracted folder.
