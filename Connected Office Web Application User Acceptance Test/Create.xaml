@@ -136,7 +136,7 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="1191,8462" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="C:\\Users\\Marcel\\Desktop\\Connected_Office_Test_Data.xlsx">
+                      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="1191,8462" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="C:\\Users\\Marcel\\Desktop\\Connected Office Test Data.xlsx">
                         <ueab:ExcelApplicationCard.Body>
                           <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                             <ActivityAction.Argument>
@@ -162,17 +162,12 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="1073,167" sap2010:WorkflowViewState.IdRef="ReadRangeX_2">
+                                <ueab:ReadRangeX SaveTo="{x:Null}" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="1073,167" sap2010:WorkflowViewState.IdRef="ReadRangeX_2">
                                   <ueab:ReadRangeX.Range>
                                     <InArgument x:TypeArguments="ue:IReadRangeRef">
                                       <mca:CSharpValue x:TypeArguments="ue:IReadRangeRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">ExcelFile_Test.Sheet["Zone"]</mca:CSharpValue>
                                     </InArgument>
                                   </ueab:ReadRangeX.Range>
-                                  <ueab:ReadRangeX.SaveTo>
-                                    <OutArgument x:TypeArguments="sd:DataTable">
-                                      <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">ExcelFile_Test.Sheet["Test Results"].DataTableOutValue</mca:CSharpReference>
-                                    </OutArgument>
-                                  </ueab:ReadRangeX.SaveTo>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
