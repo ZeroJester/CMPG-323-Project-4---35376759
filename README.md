@@ -1,6 +1,6 @@
 # CMPG-323-Project-4---35376759
-## How to use the project?
-###
+
+### How to test the project?
 1. Open the Project 4 repository.
 2. Click on the green "Code" button.
 3. Click "Download ZIP" from the dropdown menu.
