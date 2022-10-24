@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ky44N9s/JdD0oz0sQeHD4kft772I3LiFc+KpqWA5HCvD7DIF3Y6ZU2Cpbu9Nm7eCXsUU4HN3SA7Cnh3Zb8PjyA==",
+  "dgSpecHash": "gFpo1Wag/WcCTpUQPb78cpFo+ONg4rBEF+u34QNeLSKs+t789mfNvfssVbLb3ZUsPPefjRPD581fQvAIwRusEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcel\\Desktop\\New folder\\CMPG-323-Project-4---35376759\\Connected Office Web Application User Acceptance Test\\.local\\",
+  "projectFilePath": "C:\\Users\\Marcel\\Desktop\\323\\Project 4\\CMPG-323-Project-4---35376759\\Connected Office Web Application User Acceptance Test\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Marcel\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
     "C:\\Users\\Marcel\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
