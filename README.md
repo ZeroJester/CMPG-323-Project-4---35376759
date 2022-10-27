@@ -10,3 +10,5 @@
 7. Open the "Connected Office Web Application User Acceptance Test" folder.
 8. Run the "Main.xaml" workflow file which will invoke all necessary workflows.
 9. Sit back and relax.
+ 
+ UiPath Username = Marcel Joubert
